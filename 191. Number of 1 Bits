@@ -1,0 +1,5 @@
+class Solution:
+    def hammingWeight(self, n: int) -> int:
+        return bin(n).count("1")
+        #bin converts no. to binary with prefix ob  ex.000000101 --->  0b0101
+        
